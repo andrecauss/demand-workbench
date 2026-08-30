@@ -13,54 +13,52 @@ Este é um repositório orientado primeiro à documentação. Ainda não há apl
 5. `docs/02-Domain/DM-000-Ubiquitous-Language.md`
 6. `docs/02-Domain/DM-001-Planning-Unit.md`
 
-Os demais arquivos de tema eram, originalmente, placeholders. Seus nomes indicam a cobertura pretendida, não conteúdo previamente aprovado.
+Os demais arquivos de tema eram originalmente placeholders: seus nomes indicam a cobertura pretendida, não conteúdo previamente aprovado.
 
 ## Sequência recomendada para assumir o projeto
 
-### 1. Resolve product decisions
+### 1. Resolver decisões de produto
 
-- Define the Planning Unit business key and planning dimensions.
-- Confirm time granularity, calendar, units, and historical-demand sources.
-- Specify the semantics of every business adjustment.
-- Define roles and version-transition permissions.
-- Agree on export contracts and non-functional requirements.
+- Definir a Business Key e as dimensões de planejamento da Planning Unit.
+- Confirmar granularidade temporal, calendário, unidades e fontes de Historical Demand.
+- Especificar a semântica de cada ajuste de negócio.
+- Definir papéis e permissões de transição de versão.
+- Acordar contratos de exportação e requisitos não funcionais.
 
-Record cross-cutting decisions in the existing `docs/ADR` structure. Replace placeholders only when the decision is approved.
+Registre decisões transversais na estrutura existente de `docs/ADR`. Substitua placeholders somente depois da aprovação da decisão.
 
-### 2. Establish the engineering foundation
+### 2. Estabelecer a fundação de engenharia
 
-- Select the application stack and document why it fits the analytical and governance workload.
-- Add dependency manifests, deterministic local setup, formatting, linting, tests, and CI.
-- Define environment separation, configuration management, observability, and secret handling.
-- Model Planning Unit, historical demand, forecast run, forecast result, adjustment, planning cycle, forecast version, audit event, and publication.
+- Selecionar a stack de aplicação e documentar sua aderência à carga analítica e de governança.
+- Adicionar manifestos de dependência, configuração local determinística, formatação, lint, testes e CI.
+- Definir separação de ambientes, gestão de configuração, observabilidade e tratamento de segredos.
+- Modelar Planning Unit, Historical Demand, Forecast Run, Forecast Result, ajustes, Planning Cycle, Forecast Version, Audit Event e Publication.
 
-Files named for Databricks and Delta Lake exist under `docs/08-Architecture`, but they are empty. Their presence is not an approved architecture decision.
+Os arquivos de Databricks e Delta Lake existem em `docs/08-Architecture`, mas não representam decisão arquitetural aprovada.
 
-### 3. Build the first vertical slice
-
-Implement a narrow end-to-end path:
+### 3. Construir o primeiro vertical slice
 
 ```text
-validated demand sample
-  -> historical series for one Planning Unit
-  -> one reference forecast model
-  -> persisted result and parameters
-  -> one defined accuracy metric
-  -> traceable API or minimal interface
+amostra validada de demanda
+  -> série histórica de uma Planning Unit
+  -> modelo de Forecast de referência
+  -> resultado e parâmetros persistidos
+  -> uma métrica de acurácia definida
+  -> API rastreável ou interface mínima
 ```
 
-This slice should prove data identity, repeatability, testing strategy, observability, and access control before all six forecasting models are added.
+Esse slice deve provar identidade dos dados, repetibilidade, estratégia de testes, observabilidade e controle de acesso antes da inclusão dos seis modelos de Forecast.
 
-### 4. Add governance and publication
+### 4. Adicionar governança e Publication
 
-- Implement business adjustments only after their rules are approved.
-- Add version transitions, authorization, audit events, and the single-publication constraint.
-- Add export contracts and consumer validation.
+- Implementar ajustes de negócio somente após aprovação das regras.
+- Adicionar transições de versão, autorização, Audit Events e a restrição de uma Publication por ciclo.
+- Adicionar contratos de exportação e validação pelo consumidor.
 
-## Definition of done for each increment
+## Definição de pronto por incremento
 
-An increment is complete only when it includes implementation, automated tests, security review, configuration documentation, telemetry, and a rollback path. Forecast outputs must be reproducible from recorded data, model version, parameters, and adjustments.
+Um incremento só está completo quando inclui implementação, testes automatizados, revisão de segurança, documentação de configuração, telemetria e caminho de reversão. Saídas de Forecast devem ser reproduzíveis a partir de dados registrados, versão do modelo, parâmetros e ajustes.
 
-## Suggested first deliverable
+## Primeiro entregável sugerido
 
-Create and approve the Planning Unit ADR, including its business key, dimensional relationships, temporal validity, and aggregation behavior. That decision shapes storage, APIs, forecasting granularity, metrics, and user flows.
+Criar e aprovar o ADR da Planning Unit, incluindo Business Key, relações dimensionais, validade temporal e comportamento de agregação. Essa decisão define armazenamento, APIs, granularidade de Forecast, métricas e fluxos de usuário.

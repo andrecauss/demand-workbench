@@ -34,11 +34,27 @@ $Index += ""
 $Index += "# Documentação"
 $Index += ""
 
+$Labels = @{
+    "00-Handoff"                 = "00 - Handoff"
+    "01-Overview"                = "01 - Visão geral"
+    "02-Domain"                  = "02 - Domínio"
+    "03-Business-Rules"          = "03 - Regras de negócio"
+    "04-Modules"                 = "04 - Módulos"
+    "05-Functional-Requirements" = "05 - Requisitos funcionais"
+    "06-Data-Model"              = "06 - Modelo de dados"
+    "07-User-Flows"              = "07 - Fluxos de usuário"
+    "08-Architecture"            = "08 - Arquitetura"
+    "09-Roadmap"                 = "09 - Roadmap"
+    "references"                 = "Referências"
+}
+
 $Folders = Get-ChildItem $Docs -Directory | Sort-Object Name
 
 foreach ($Folder in $Folders) {
 
-    $Index += "## $($Folder.Name)"
+    $Label = if ($Labels.ContainsKey($Folder.Name)) { $Labels[$Folder.Name] } else { $Folder.Name }
+
+    $Index += "## $Label"
     $Index += ""
 
     $Files = Get-ChildItem $Folder.FullName -Filter "*.md" |

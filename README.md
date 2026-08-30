@@ -33,7 +33,7 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 
 # Documentação
 
-## 00-Handoff
+## 00 - Handoff
 
 - [CODER-HANDOFF](docs/00-Handoff/CODER-HANDOFF.md)
 - [CONSOLIDATION-LOG](docs/00-Handoff/CONSOLIDATION-LOG.md)
@@ -42,14 +42,14 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [REPOSITORY-AUDIT](docs/00-Handoff/REPOSITORY-AUDIT.md)
 - [SECURITY-BASELINE](docs/00-Handoff/SECURITY-BASELINE.md)
 
-## 01-Overview
+## 01 - Visão geral
 
 - [OV-001-Vision](docs/01-Overview/OV-001-Vision.md)
 - [OV-002-Business-Problem](docs/01-Overview/OV-002-Business-Problem.md)
 - [OV-003-Scope](docs/01-Overview/OV-003-Scope.md)
 - [OV-004-Glossary](docs/01-Overview/OV-004-Glossary.md)
 
-## 02-Domain
+## 02 - Domínio
 
 - [DM-000-Ubiquitous-Language](docs/02-Domain/DM-000-Ubiquitous-Language.md)
 - [DM-001-Planning-Unit](docs/02-Domain/DM-001-Planning-Unit.md)
@@ -65,7 +65,7 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [DM-011-Tag](docs/02-Domain/DM-011-Tag.md)
 - [DM-012-Forecast-Classification](docs/02-Domain/DM-012-Forecast-Classification.md)
 
-## 03-Business-Rules
+## 03 - Regras de negócio
 
 - [BR-001-Planning-Classification](docs/03-Business-Rules/BR-001-Planning-Classification.md)
 - [BR-002-Historical-Demand](docs/03-Business-Rules/BR-002-Historical-Demand.md)
@@ -78,7 +78,7 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [BR-009-Planning-Unit-Supersession](docs/03-Business-Rules/BR-009-Planning-Unit-Supersession.md)
 - [BR-010-Supersession-Chain](docs/03-Business-Rules/BR-010-Supersession-Chain.md)
 
-## 04-Modules
+## 04 - Módulos
 
 - [MOD-001-Forecast-Workbench](docs/04-Modules/MOD-001-Forecast-Workbench.md)
 - [MOD-002-Collaboration-Workbench](docs/04-Modules/MOD-002-Collaboration-Workbench.md)
@@ -86,13 +86,13 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [MOD-004-Forecast-Analytics](docs/04-Modules/MOD-004-Forecast-Analytics.md)
 - [MOD-005-Administration](docs/04-Modules/MOD-005-Administration.md)
 
-## 05-Functional-Requirements
+## 05 - Requisitos funcionais
 
 - [FR-001](docs/05-Functional-Requirements/FR-001.md)
 - [FR-002](docs/05-Functional-Requirements/FR-002.md)
 - [FR-003](docs/05-Functional-Requirements/FR-003.md)
 
-## 06-Data-Model
+## 06 - Modelo de dados
 
 - [DMD-001-Entities](docs/06-Data-Model/DMD-001-Entities.md)
 - [DMD-002-Relationships](docs/06-Data-Model/DMD-002-Relationships.md)
@@ -101,7 +101,7 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [DMD-005-Versioning](docs/06-Data-Model/DMD-005-Versioning.md)
 - [DMD-006-Metadata](docs/06-Data-Model/DMD-006-Metadata.md)
 
-## 07-User-Flows
+## 07 - Fluxos de usuário
 
 - [UF-001-Forecast-Cycle](docs/07-User-Flows/UF-001-Forecast-Cycle.md)
 - [UF-002-Collaboration](docs/07-User-Flows/UF-002-Collaboration.md)
@@ -109,7 +109,7 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [UF-004-Forecast-Accuracy](docs/07-User-Flows/UF-004-Forecast-Accuracy.md)
 - [UF-005-Planning-Unit-Supersession](docs/07-User-Flows/UF-005-Planning-Unit-Supersession.md)
 
-## 08-Architecture
+## 08 - Arquitetura
 
 - [ARC-001-Logical-Architecture](docs/08-Architecture/ARC-001-Logical-Architecture.md)
 - [ARC-002-Databricks](docs/08-Architecture/ARC-002-Databricks.md)
@@ -118,7 +118,7 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [ARC-005-Security](docs/08-Architecture/ARC-005-Security.md)
 - [ARC-006-Versioning-Strategy](docs/08-Architecture/ARC-006-Versioning-Strategy.md)
 
-## 09-Roadmap
+## 09 - Roadmap
 
 - [RM-001-MVP](docs/09-Roadmap/RM-001-MVP.md)
 - [RM-002-Phase-2](docs/09-Roadmap/RM-002-Phase-2.md)
@@ -133,8 +133,9 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [ADR-005-Forecast-Analytics-Separation](docs/ADR/ADR-005-Forecast-Analytics-Separation.md)
 - [ADR-006-Domain-Driven-Design](docs/ADR/ADR-006-Domain-Driven-Design.md)
 
-## assets
+## Referências
 
+- [README](docs/references/README.md)
 
 ## templates
 
@@ -146,3 +147,5 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [User-Flow-Template](docs/templates/User-Flow-Template.md)
 
 <!-- DOCS:END -->
+
+

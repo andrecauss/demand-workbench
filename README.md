@@ -10,6 +10,14 @@ Enterprise Demand Planning Platform
 
 # Documentation
 
+## 00-Handoff
+
+- [CODER-HANDOFF](docs/00-Handoff/CODER-HANDOFF.md)
+- [FUNCTIONAL-BASELINE](docs/00-Handoff/FUNCTIONAL-BASELINE.md)
+- [PROJECT-SUMMARY](docs/00-Handoff/PROJECT-SUMMARY.md)
+- [REPOSITORY-AUDIT](docs/00-Handoff/REPOSITORY-AUDIT.md)
+- [SECURITY-BASELINE](docs/00-Handoff/SECURITY-BASELINE.md)
+
 ## 01-Overview
 
 - [OV-001-Vision](docs/01-Overview/OV-001-Vision.md)
@@ -19,6 +27,7 @@ Enterprise Demand Planning Platform
 
 ## 02-Domain
 
+- [DM-000-Ubiquitous-Language](docs/02-Domain/DM-000-Ubiquitous-Language.md)
 - [DM-001-Planning-Unit](docs/02-Domain/DM-001-Planning-Unit.md)
 - [DM-002-Planning-Unit-Supersession](docs/02-Domain/DM-002-Planning-Unit-Supersession.md)
 - [DM-003-Supersession-Chain](docs/02-Domain/DM-003-Supersession-Chain.md)

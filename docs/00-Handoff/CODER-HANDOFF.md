@@ -1,10 +1,10 @@
-# Coder Handoff
+# Handoff para coders
 
-## Starting point
+## Ponto de partida
 
-This is a documentation-first repository. There is no application to run yet. The next coder should convert the approved business baseline into testable decisions before scaffolding production code.
+Este é um repositório orientado primeiro à documentação. Ainda não há aplicação para executar. O próximo coder deve transformar a base de negócio aprovada em decisões testáveis antes de criar o código de produção.
 
-## Read first
+## Leia primeiro
 
 1. [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md)
 2. [FUNCTIONAL-BASELINE.md](FUNCTIONAL-BASELINE.md)
@@ -13,9 +13,9 @@ This is a documentation-first repository. There is no application to run yet. Th
 5. `docs/02-Domain/DM-000-Ubiquitous-Language.md`
 6. `docs/02-Domain/DM-001-Planning-Unit.md`
 
-The remaining topic files are mostly empty placeholders. Their filenames communicate intended coverage, not approved content.
+Os demais arquivos de tema eram, originalmente, placeholders. Seus nomes indicam a cobertura pretendida, não conteúdo previamente aprovado.
 
-## Recommended takeover sequence
+## Sequência recomendada para assumir o projeto
 
 ### 1. Resolve product decisions
 

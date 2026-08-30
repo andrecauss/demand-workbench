@@ -1,52 +1,42 @@
-# Demand Workbench Project Summary
+# Resumo do projeto Demand Workbench
 
-## Purpose
+## Objetivo
 
-Demand Workbench is intended to support enterprise demand planning through statistical forecasting, controlled business adjustments, collaboration, version governance, traceability, and publication.
+O Demand Workbench apoia o planejamento corporativo de demanda com previsões estatísticas, ajustes de negócio controlados, colaboração, governança de versões, rastreabilidade e publicação.
 
-The product is organized around three primary work areas:
+Áreas principais:
 
-- **Forecast Workbench:** prepare demand history, execute forecasts, compare results, and apply approved adjustments.
-- **Collaboration Workbench:** review and enrich a planning version before approval.
-- **Publish Workbench:** approve, publish, audit, and export the selected plan.
+- **Forecast Workbench:** prepara o histórico, executa previsões, compara resultados e aplica ajustes aprovados.
+- **Collaboration Workbench:** revisa uma versão de planejamento antes da aprovação.
+- **Publish Workbench:** aprova, publica, audita e exporta o plano selecionado.
 
-## MVP boundary
+## Limites do MVP
 
-| Area | Current requirement |
+| Área | Requisito atual |
 | --- | --- |
-| Initial segment | 4W |
-| Initial population | Forecastable items |
-| Expected scale | Approximately 1,000 Planning Units |
-| Historical window | 24 months |
-| Forecast horizon | 36 months by default, configurable |
-| Forecast models | ETS, Moving Average, Croston, Holt-Winters, Prophet, and ARIMA |
-| Evaluation metrics | MAPE, APE, and BIAS |
-| Initial exports | Excel and Access |
+| Segmento inicial | 4W |
+| População inicial | Itens Forecastable |
+| Escala esperada | Cerca de 1.000 Planning Units |
+| Histórico | 24 meses |
+| Horizonte | 36 meses por padrão, configurável |
+| Modelos | ETS, Moving Average, Croston, Holt-Winters, Prophet e ARIMA |
+| Métricas | MAPE, APE e BIAS |
+| Exportações | Excel e Access |
 
-## Planning domain
+## Domínio de planejamento
 
-The available requirements mention the following planning levels: Segment, Market, Sector, Family, SKU, Customer Type, and Customer. The repository does not yet define whether they form one mandatory hierarchy, independent dimensions, or configurable planning paths.
+Os níveis mencionados são Segment, Market, Sector, Family, SKU, Customer Type e Customer. Ainda não está definido se eles formam uma hierarquia obrigatória, dimensões independentes ou caminhos configuráveis.
 
-Planning classification has three values:
+As classificações são `Forecastable`, `Non-Forecastable` e `No Classification`. Tags são metadados informativos, como Export, Warranty, Recall e New Model.
 
-- `Forecastable`
-- `Non-Forecastable`
-- `No Classification`
+## Ciclo de previsão
 
-Tags are informational metadata. Examples include Export, Warranty, Recall, and New Model.
+A demanda histórica pode receber tratamento opcional de outliers por IQR e winsorização. Os ajustes previstos são Previous Forecast Switch, Trend Overrides e Forecast Offset, mas suas fórmulas e precedências ainda precisam ser aprovadas.
 
-## Forecast lifecycle
+As versões passam por `Draft`, `Under Review`, `Approved` e `Published`. Deve existir no máximo uma versão Published por ciclo, e criação, aprovação e publicação devem ser auditáveis.
 
-Historical demand may optionally receive IQR-based outlier treatment and winsorization. Business adjustments include Previous Forecast Switch, Trend Overrides, and Forecast Offset. Their exact formulas, precedence, effective periods, and authorization rules remain undefined.
+## Visão futura e estado atual
 
-Forecast versions move through the business states `Draft`, `Under Review`, `Approved`, and `Published`. There must be at most one Published version for a planning cycle. Creation, approval, and publication must be auditable.
+Reconciliação de previsões, colaboração mais rica, enriquecimento de dados e recomendações por IA são capacidades futuras, fora do MVP confirmado.
 
-## Future direction
-
-Forecast reconciliation, richer collaboration, data enrichment, and AI recommendations are future capabilities. They are not part of the confirmed MVP unless separately approved.
-
-## Current repository state
-
-This repository contains a documentation structure, templates, and two helper scripts. It does not contain application code, dependency manifests, tests, infrastructure definitions, CI/CD configuration, or an executable prototype. Most topic files are placeholders awaiting content.
-
-For the recommended takeover sequence, continue with [CODER-HANDOFF.md](CODER-HANDOFF.md).
+O repositório é, neste momento, uma base de documentação e arquitetura: não há código executável, dependências, testes, infraestrutura ou CI/CD. Para assumir o trabalho, siga o [Handoff para coders](CODER-HANDOFF.md).

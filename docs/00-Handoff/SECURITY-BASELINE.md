@@ -1,33 +1,32 @@
-# Security Baseline
+# Base de segurança
 
-## Review result
+## Resultado da revisão
 
-No implementation-level security conclusion is possible yet. The repository contains no application code, dependency manifests, deployment configuration, secrets configuration, infrastructure, CI pipeline, or runtime environment to assess.
+Não é possível concluir a segurança de uma implementação que ainda não existe. O repositório não contém código de aplicação, dependências, infraestrutura, CI, configuração de implantação, segredos ou ambiente de execução para avaliar.
 
-The absence of detected implementation artifacts is a limitation of evidence, not a positive security assessment.
+Essa ausência é uma limitação de evidência, não uma aprovação de segurança.
 
-## Required controls
+## Controles obrigatórios
 
-- Centralized authentication and role-based authorization for creation, review, approval, publication, administration, and export.
-- Durable audit events for data treatment, forecast execution, adjustments, state transitions, approvals, publication, and exports.
-- A transactional database constraint for one Published version per planning cycle, including concurrent requests.
-- Encryption in transit and at rest, data classification, retention rules, and least-privilege access.
-- Secrets outside source control, with rotation and environment isolation.
-- Input and file validation, output encoding, request limits, and protection against injection and unauthorized object access.
-- Locked dependencies, vulnerability scanning, secret scanning, and security checks in CI.
-- Structured logs that exclude secrets and sensitive business data.
-- Tested backup, restore, and disaster-recovery procedures for planning data and audit history.
+- Autenticação centralizada e autorização baseada em papéis para criação, revisão, aprovação, publicação, administração e exportação.
+- Eventos de auditoria duráveis para tratamento de dados, execução de previsão, ajustes, transições, aprovações, publicação e exportações.
+- Restrição transacional de uma única versão Published por Planning Cycle, inclusive para solicitações concorrentes.
+- Criptografia em trânsito e em repouso, classificação de dados, retenção e menor privilégio.
+- Segredos fora do código-fonte, com rotação e separação de ambientes.
+- Validação de entradas e arquivos, limites de requisição e proteção contra injeção e acesso indevido.
+- Dependências fixadas, varredura de vulnerabilidades e de segredos no CI.
+- Logs estruturados sem segredos ou dados sensíveis; backup, restauração e recuperação de desastre testados.
 
-## Production security gates
+## Gates antes de produção
 
-1. Threat model and data-classification review.
-2. Authorization tests for every endpoint and user action.
-3. Concurrency test for the single-publication constraint.
-4. Dependency, secret, source, and infrastructure scans in CI.
-5. Backup and restore exercise.
-6. Audit-trail integrity and access review.
-7. Export review covering scope, recipient, encryption, retention, and traceability.
+1. Modelagem de ameaças e classificação de dados.
+2. Testes de autorização em cada endpoint e ação de usuário.
+3. Teste de concorrência para a publicação única.
+4. Varreduras de dependências, segredos, código e infraestrutura no CI.
+5. Exercício de backup e restauração.
+6. Revisão da integridade e do acesso à auditoria.
+7. Revisão de exportações quanto a escopo, destinatário, criptografia, retenção e rastreabilidade.
 
-## Business decision required
+## Decisão de negócio necessária
 
-The requirements include Customer and Customer Type dimensions. A data owner must determine whether they contain personal, confidential, or commercially sensitive information, who may access them, and how long they may be retained.
+Customer e Customer Type podem conter dados pessoais, confidenciais ou comercialmente sensíveis. Um responsável pelos dados deve definir classificação, acesso permitido e retenção.

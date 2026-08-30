@@ -1,75 +1,75 @@
 ---
 ID:
-Title:
-Version: 1.0
+Título:
+Versão: 1.0
 Status: Draft
-Owner:
-Created:
-Updated:
-Author:
-Reviewers:
-Approved By:
-Related Documents:
-Related Business Rules:
-Related Functional Requirements:
-Related ADRs:
+Responsável:
+Criado em:
+Atualizado em:
+Autor:
+Revisores:
+Aprovado por:
+Documentos relacionados:
+Business Rules relacionadas:
+Functional Requirements relacionados:
+ADRs relacionados:
 ---
 
-# Overview
+# Visão geral
 
-## Purpose
+## Propósito
 
-Describe the purpose of this domain concept.
+Descreva o propósito deste conceito de domínio.
 
-## Business Motivation
+## Motivação de negócio
 
-Explain why this concept exists from a business perspective.
+Explique por que este conceito existe da perspectiva de negócio.
 
-## Scope
+## Escopo
 
-Describe where this concept is applicable and its boundaries.
-
----
-
-# Business Definition
-
-Provide the business definition of the domain concept.
+Descreva onde este conceito se aplica e seus limites.
 
 ---
 
-# Responsibilities
+# Definição de negócio
 
-Describe the responsibilities of this domain concept.
+Forneça a definição de negócio do conceito de domínio.
 
-### Responsible for
+---
+
+# Responsabilidades
+
+Descreva as responsabilidades deste conceito de domínio.
+
+### Responsável por
 
 -
 
-### Not Responsible for
+### Não responsável por
 
 -
 
 ---
 
-# Structure
+# Estrutura
 
-## Attributes
+## Atributos
 
-| Attribute | Description | Required | Notes |
+| Atributo | Descrição | Obrigatório | Notas |
 |-----------|-------------|----------|-------|
 | | | | |
 
 ## Business Key
 
-Describe the attributes that uniquely identify the domain object.
+Descreva os atributos que identificam unicamente o objeto de domínio.
 
 ---
 
-# Lifecycle
+# Ciclo de vida
 
-Describe the lifecycle of the domain concept.
+Descreva o ciclo de vida do conceito de domínio.
 
-Example:
+Exemplo:
 
 Draft
 
@@ -87,9 +87,9 @@ Archived
 
 ---
 
-# Relationships
+# Relacionamentos
 
-| Related Concept | Relationship | Description |
+| Conceito relacionado | Relacionamento | Descrição |
 |-----------------|--------------|-------------|
 | | | |
 
@@ -97,73 +97,73 @@ Archived
 
 # Business Rules
 
-| ID | Description |
+| ID | Descrição |
 |----|-------------|
 | BR-XXX | |
 
 ---
 
-# Examples
+# Exemplos
 
-## Example 1
+## Exemplo 1
 
-Describe a business example.
-
----
-
-## Example 2
-
-Describe another example.
+Descreva um exemplo de negócio.
 
 ---
 
-# Design Considerations
+## Exemplo 2
 
-Document important design decisions affecting this concept.
-
----
-
-# Constraints
-
-Document known business or technical constraints.
+Descreva outro exemplo.
 
 ---
 
-# Assumptions
+# Considerações de design
 
-List assumptions used when defining this concept.
-
----
-
-# Open Questions
-
-List pending decisions.
+Documente decisões de design importantes que afetam este conceito.
 
 ---
 
-# Future Evolution
+# Restrições
 
-Describe expected future enhancements.
+Documente restrições de negócio ou técnicas conhecidas.
 
 ---
 
-# Related Documentation
+# Premissas
 
-- Domain
+Liste as premissas usadas ao definir este conceito.
+
+---
+
+# Questões em aberto
+
+Liste as decisões pendentes.
+
+---
+
+# Evolução futura
+
+Descreva os aprimoramentos futuros esperados.
+
+---
+
+# Documentação relacionada
+
+- Domínio
 -
 - Business Rules
 -
 - Functional Requirements
 -
-- Architecture
+- Arquitetura
 -
 - ADR
 -
 
 ---
 
-# Revision History
+# Histórico de revisões
 
-| Version | Date | Author | Description |
+| Versão | Data | Autor | Descrição |
 |----------|------|--------|-------------|
-| 1.0 | | | Initial version |
+| 1.0 | | | Versão inicial |

@@ -4,15 +4,39 @@ Enterprise Demand Planning Platform
 
 ---
 
-## Documentation
+## Idioma da documentação
+
+Português do Brasil (pt-BR) é o idioma padrão deste projeto. A documentação deve ser clara também para leitores não técnicos.
+
+Mantenha em inglês somente siglas, identificadores, estados oficiais e termos técnicos consolidados quando isso melhorar a precisão ou a interoperabilidade — por exemplo, `FRS`, `ADR`, `API`, `Forecast`, `Planning Unit`, `Draft`, `Under Review`, `Approved` e `Published`. Na primeira ocorrência, explique o termo em português ou vincule-o ao [glossário técnico](docs/01-Overview/OV-004-Glossary.md).
+
+---
+
+## Comece por aqui
+
+Para uma visão geral concisa do projeto e um ponto de partida para a implementação, leia:
+
+1. [Resumo do projeto](docs/00-Handoff/PROJECT-SUMMARY.md)
+2. [Base funcional](docs/00-Handoff/FUNCTIONAL-BASELINE.md)
+3. [Handoff para coders](docs/00-Handoff/CODER-HANDOFF.md)
+4. [Base de segurança](docs/00-Handoff/SECURITY-BASELINE.md)
+5. [Auditoria do repositório](docs/00-Handoff/REPOSITORY-AUDIT.md)
+6. [Registro de consolidação](docs/00-Handoff/CONSOLIDATION-LOG.md)
+
+Os requisitos funcionais originais estão preservados em [docs/references](docs/references/README.md).
+
+---
+
+## Documentação
 
 <!-- DOCS:START -->
 
-# Documentation
+# Documentação
 
 ## 00-Handoff
 
 - [CODER-HANDOFF](docs/00-Handoff/CODER-HANDOFF.md)
+- [CONSOLIDATION-LOG](docs/00-Handoff/CONSOLIDATION-LOG.md)
 - [FUNCTIONAL-BASELINE](docs/00-Handoff/FUNCTIONAL-BASELINE.md)
 - [PROJECT-SUMMARY](docs/00-Handoff/PROJECT-SUMMARY.md)
 - [REPOSITORY-AUDIT](docs/00-Handoff/REPOSITORY-AUDIT.md)

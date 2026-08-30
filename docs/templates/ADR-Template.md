@@ -1,27 +1,27 @@
 ---
 ID:
-Title:
-Version: 1.0
+Título:
+Versão: 1.0
 Status: Accepted
-Date:
-Authors:
-Decision Makers:
-Supersedes:
-Superseded By:
-Related Domains:
-Related Business Rules:
-Related Modules:
+Data:
+Autores:
+Decisores:
+Substitui:
+Substituído por:
+Domínios relacionados:
+Business Rules relacionadas:
+Módulos relacionados:
 ---
 
-# Context
+# Contexto
 
-Describe the background and the problem that motivated this decision.
+Descreva o histórico e o problema que motivou esta decisão.
 
 ---
 
-# Decision
+# Decisão
 
-Describe the architectural decision.
+Descreva a decisão de arquitetura.
 
 ---
 
@@ -31,65 +31,65 @@ Accepted | Proposed | Deprecated | Superseded
 
 ---
 
-# Decision Drivers
+# Direcionadores da decisão
 
-- Driver 1
-- Driver 2
-- Driver 3
-
----
-
-# Considered Alternatives
-
-## Alternative 1
-
-### Pros
-
--
-
-### Cons
-
--
+- Direcionador 1
+- Direcionador 2
+- Direcionador 3
 
 ---
 
-## Alternative 2
+# Alternativas consideradas
 
-### Pros
+## Alternativa 1
+
+### Prós
 
 -
 
-### Cons
+### Contras
 
 -
 
 ---
 
-# Consequences
+## Alternativa 2
 
-## Positive
-
--
-
-## Negative
+### Prós
 
 -
 
-## Risks
+### Contras
 
 -
 
 ---
 
-# Implementation Notes
+# Consequências
 
-Describe implementation guidelines.
+## Positivas
+
+-
+
+## Negativas
+
+-
+
+## Riscos
+
+-
 
 ---
 
-# Related Documentation
+# Notas de implementação
 
-## Domain
+Descreva as diretrizes de implementação.
+
+---
+
+# Documentação relacionada
+
+## Domínio
 
 -
 
@@ -101,18 +101,18 @@ Describe implementation guidelines.
 
 -
 
-## Modules
+## Módulos
 
 -
 
-## Architecture
+## Arquitetura
 
 -
 
 ---
 
-# Revision History
+# Histórico de revisões
 
-| Version | Date | Author | Description |
+| Versão | Data | Autor | Descrição |
 |----------|------|--------|-------------|
-| 1.0 | | | Initial version |
+| 1.0 | | | Versão inicial |

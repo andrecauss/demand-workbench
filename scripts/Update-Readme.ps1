@@ -31,7 +31,7 @@ $Content = Get-Content $Readme -Raw
 $Index = @()
 $Index += $StartMarker
 $Index += ""
-$Index += "# Documentation"
+$Index += "# Documentação"
 $Index += ""
 
 $Folders = Get-ChildItem $Docs -Directory | Sort-Object Name

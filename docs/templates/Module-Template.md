@@ -1,65 +1,65 @@
 ---
 ID:
-Title:
-Version: 1.0
+Título:
+Versão: 1.0
 Status: Draft
-Owner:
-Created:
-Updated:
-Author:
-Reviewers:
-Approved By:
-Related Domains:
-Related Functional Requirements:
-Related User Flows:
-Related ADRs:
+Responsável:
+Criado em:
+Atualizado em:
+Autor:
+Revisores:
+Aprovado por:
+Domínios relacionados:
+Functional Requirements relacionados:
+User Flows relacionados:
+ADRs relacionados:
 ---
 
-# Overview
+# Visão geral
 
-## Purpose
+## Propósito
 
-Describe the purpose of this module.
+Descreva o propósito deste módulo.
 
-## Business Motivation
+## Motivação de negócio
 
-Explain why this module exists.
+Explique por que este módulo existe.
 
-## Scope
+## Escopo
 
-Describe what is included and excluded from this module.
+Descreva o que está incluído e excluído deste módulo.
 
 ---
 
-# Responsibilities
+# Responsabilidades
 
-## Responsible for
+## Responsável por
 
 -
 
-## Not Responsible for
+## Não responsável por
 
 -
 
 ---
 
-# Functional Overview
+# Visão funcional
 
-Provide a high-level description of the module capabilities.
+Forneça uma descrição de alto nível das capacidades do módulo.
 
 ---
 
-# Features
+# Funcionalidades
 
-| ID | Feature | Description |
+| ID | Funcionalidade | Descrição |
 |----|----------|-------------|
 | FR-XXX | | |
 
 ---
 
-# User Roles
+# Papéis de usuário
 
-| Role | Responsibilities |
+| Papel | Responsabilidades |
 |------|------------------|
 | Planner | |
 | Administrator | |
@@ -67,33 +67,33 @@ Provide a high-level description of the module capabilities.
 
 ---
 
-# Inputs
+# Entradas
 
-| Source | Description |
+| Fonte | Descrição |
 |---------|-------------|
 | | |
 
 ---
 
-# Outputs
+# Saídas
 
-| Output | Description |
+| Saída | Descrição |
 |---------|-------------|
 | | |
 
 ---
 
-# Dependencies
+# Dependências
 
 ## Upstream
 
-| Component | Description |
+| Componente | Descrição |
 |-----------|-------------|
 | | |
 
 ## Downstream
 
-| Component | Description |
+| Componente | Descrição |
 |-----------|-------------|
 | | |
 
@@ -101,7 +101,7 @@ Provide a high-level description of the module capabilities.
 
 # Business Rules
 
-| Rule | Description |
+| Regra | Descrição |
 |------|-------------|
 | BR-XXX | |
 
@@ -109,35 +109,35 @@ Provide a high-level description of the module capabilities.
 
 # User Flows
 
-| Flow | Description |
+| Fluxo | Descrição |
 |------|-------------|
 | UF-XXX | |
 
 ---
 
-# Navigation
+# Navegação
 
-Describe how users access this module.
-
----
-
-# Security
-
-Describe permissions and access control.
+Descreva como os usuários acessam este módulo.
 
 ---
 
-# Non-Functional Requirements
+# Segurança
 
-## Performance
+Descreva permissões e controle de acesso.
+
+---
+
+# Requisitos não funcionais
+
+## Desempenho
 
 -
 
-## Availability
+## Disponibilidade
 
 -
 
-## Audit
+## Auditoria
 
 -
 
@@ -149,21 +149,21 @@ Describe permissions and access control.
 
 # KPIs
 
-| KPI | Description |
+| KPI | Descrição |
 |-----|-------------|
 | | |
 
 ---
 
-# Future Evolution
+# Evolução futura
 
-Describe expected future enhancements.
+Descreva os aprimoramentos futuros esperados.
 
 ---
 
-# Related Documentation
+# Documentação relacionada
 
-## Domain
+## Domínio
 
 -
 
@@ -179,7 +179,7 @@ Describe expected future enhancements.
 
 -
 
-## Architecture
+## Arquitetura
 
 -
 
@@ -189,8 +189,8 @@ Describe expected future enhancements.
 
 ---
 
-# Revision History
+# Histórico de revisões
 
-| Version | Date | Author | Description |
+| Versão | Data | Autor | Descrição |
 |----------|------|--------|-------------|
-| 1.0 | | | Initial version |
+| 1.0 | | | Versão inicial |

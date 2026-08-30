@@ -1,39 +1,39 @@
 ---
 ID:
-Title:
-Version: 1.0
+Título:
+Versão: 1.0
 Status: Draft
-Owner:
-Created:
-Updated:
-Author:
-Reviewers:
-Approved By:
-Related Modules:
-Related Functional Requirements:
-Related Business Rules:
-Related ADRs:
+Responsável:
+Criado em:
+Atualizado em:
+Autor:
+Revisores:
+Aprovado por:
+Módulos relacionados:
+Functional Requirements relacionados:
+Business Rules relacionadas:
+ADRs relacionados:
 ---
 
-# Overview
+# Visão geral
 
-## Purpose
+## Propósito
 
-Describe the objective of this business flow.
+Descreva o objetivo deste fluxo de negócio.
 
-## Business Context
+## Contexto de negócio
 
-Explain where this flow fits within the planning process.
+Explique onde este fluxo se encaixa no processo de planejamento.
 
-## Scope
+## Escopo
 
-Describe the boundaries of this flow.
+Descreva os limites deste fluxo.
 
 ---
 
-# Actors
+# Atores
 
-| Actor | Responsibility |
+| Ator | Responsabilidade |
 |--------|----------------|
 | Planner | |
 | Manager | |
@@ -41,22 +41,22 @@ Describe the boundaries of this flow.
 
 ---
 
-# Trigger
+# Gatilho
 
-Describe what starts this flow.
-
----
-
-# Preconditions
-
-- Condition 1
-- Condition 2
+Descreva o que inicia este fluxo.
 
 ---
 
-# Main Flow
+# Pré-condições
 
-| Step | Actor | Action | System Response |
+- Condição 1
+- Condição 2
+
+---
+
+# Fluxo principal
+
+| Passo | Ator | Ação | Resposta do sistema |
 |------|-------|--------|-----------------|
 | 1 | | | |
 | 2 | | | |
@@ -64,37 +64,37 @@ Describe what starts this flow.
 
 ---
 
-# Alternative Flows
+# Fluxos alternativos
 
 ## AF-01
 
-Describe an alternative path.
+Descreva um caminho alternativo.
 
 ---
 
 ## AF-02
 
-Describe another alternative path.
+Descreva outro caminho alternativo.
 
 ---
 
-# Exception Flows
+# Fluxos de exceção
 
 ## EX-01
 
-Describe an exception scenario.
+Descreva um cenário de exceção.
 
 ---
 
-# Postconditions
+# Pós-condições
 
-Describe the expected system state after successful completion.
+Descreva o estado esperado do sistema após a conclusão bem-sucedida.
 
 ---
 
-# Business Rules Applied
+# Business Rules aplicadas
 
-| Rule | Description |
+| Regra | Descrição |
 |------|-------------|
 | BR-XXX | |
 
@@ -102,21 +102,21 @@ Describe the expected system state after successful completion.
 
 # Functional Requirements
 
-| Requirement | Description |
+| Requisito | Descrição |
 |-------------|-------------|
 | FR-XXX | |
 
 ---
 
-# Modules Involved
+# Módulos envolvidos
 
-| Module | Description |
+| Módulo | Descrição |
 |--------|-------------|
 | MOD-XXX | |
 
 ---
 
-# Process Diagram
+# Diagrama de processo
 
 ```mermaid
 flowchart TD
@@ -125,15 +125,15 @@ flowchart TD
 
 ---
 
-# Success Criteria
+# Critérios de sucesso
 
-Describe how the flow is considered successful.
+Descreva como o fluxo é considerado bem-sucedido.
 
 ---
 
-# Related Documentation
+# Documentação relacionada
 
-## Domain
+## Domínio
 
 -
 
@@ -145,11 +145,11 @@ Describe how the flow is considered successful.
 
 -
 
-## Modules
+## Módulos
 
 -
 
-## Architecture
+## Arquitetura
 
 -
 
@@ -159,8 +159,8 @@ Describe how the flow is considered successful.
 
 ---
 
-# Revision History
+# Histórico de revisões
 
-| Version | Date | Author | Description |
+| Versão | Data | Autor | Descrição |
 |----------|------|--------|-------------|
-| 1.0 | | | Initial version |
+| 1.0 | | | Versão inicial |

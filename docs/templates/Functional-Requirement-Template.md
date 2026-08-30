@@ -1,71 +1,71 @@
 ---
 ID:
-Title:
-Version: 1.0
+Título:
+Versão: 1.0
 Status: Draft
-Priority:
-Module:
-Owner:
-Created:
-Updated:
-Author:
-Reviewers:
-Approved By:
-Related Domain:
-Related Business Rules:
-Related User Flows:
-Related ADRs:
+Prioridade:
+Módulo:
+Responsável:
+Criado em:
+Atualizado em:
+Autor:
+Revisores:
+Aprovado por:
+Domínio relacionado:
+Business Rules relacionadas:
+User Flows relacionados:
+ADRs relacionados:
 ---
 
-# Overview
+# Visão geral
 
-## Objective
+## Objetivo
 
-Describe the objective of this functional requirement.
+Descreva o objetivo deste requisito funcional.
 
-## Business Value
+## Valor de negócio
 
-Explain the business value delivered by this requirement.
+Explique o valor de negócio entregue por este requisito.
 
-## Scope
+## Escopo
 
-Describe the scope and boundaries.
-
----
-
-# Requirement Statement
-
-The system shall...
+Descreva o escopo e os limites.
 
 ---
 
-# Actors
+# Enunciado do requisito
 
-| Actor | Description |
+O sistema deve...
+
+---
+
+# Atores
+
+| Ator | Descrição |
 |--------|-------------|
 | Planner | |
 | Administrator | |
 
 ---
 
-# Preconditions
+# Pré-condições
 
-List all conditions that must be satisfied before execution.
+Liste todas as condições que devem ser satisfeitas antes da execução.
 
-- Condition 1
-- Condition 2
-
----
-
-# Trigger
-
-Describe what starts this functionality.
+- Condição 1
+- Condição 2
 
 ---
 
-# Main Flow
+# Gatilho
 
-| Step | Description |
+Descreva o que inicia esta funcionalidade.
+
+---
+
+# Fluxo principal
+
+| Passo | Descrição |
 |------|-------------|
 | 1 | |
 | 2 | |
@@ -73,63 +73,63 @@ Describe what starts this functionality.
 
 ---
 
-# Alternative Flows
+# Fluxos alternativos
 
 ## AF-01
 
-Describe an alternative execution path.
+Descreva um caminho de execução alternativo.
 
 ---
 
 ## AF-02
 
-Describe another alternative execution path.
+Descreva outro caminho de execução alternativo.
 
 ---
 
-# Exception Flows
+# Fluxos de exceção
 
 ## EX-01
 
-Describe an exception scenario.
+Descreva um cenário de exceção.
 
 ---
 
-# Business Rules Applied
+# Business Rules aplicadas
 
-| Rule | Description |
+| Regra | Descrição |
 |------|-------------|
 | BR-XXX | |
 
 ---
 
-# Inputs
+# Entradas
 
-| Field | Description | Required |
+| Campo | Descrição | Obrigatório |
 |--------|-------------|----------|
 | | | |
 
 ---
 
-# Outputs
+# Saídas
 
-| Output | Description |
+| Saída | Descrição |
 |---------|-------------|
 | | |
 
 ---
 
-# Validation Rules
+# Regras de validação
 
-| Validation | Description |
+| Validação | Descrição |
 |------------|-------------|
 | | |
 
 ---
 
-# Acceptance Criteria
+# Critérios de aceite
 
-| ID | Description |
+| ID | Descrição |
 |----|-------------|
 | AC-001 | |
 | AC-002 | |
@@ -137,45 +137,45 @@ Describe an exception scenario.
 
 ---
 
-# Non-Functional Considerations
+# Considerações não funcionais
 
-## Performance
+## Desempenho
 
-Describe performance expectations.
+Descreva as expectativas de desempenho.
 
-## Security
+## Segurança
 
-Describe security requirements.
+Descreva os requisitos de segurança.
 
-## Audit
+## Auditoria
 
-Describe audit requirements.
+Descreva os requisitos de auditoria.
 
 ## Logging
 
-Describe logging requirements.
+Descreva os requisitos de logging.
 
 ---
 
-# Traceability
+# Rastreabilidade
 
-| Artifact | Reference |
+| Artefato | Referência |
 |-----------|-----------|
-| Domain | DM-XXX |
+| Domínio | DM-XXX |
 | Business Rule | BR-XXX |
 | User Flow | UF-XXX |
 | ADR | ADR-XXX |
 
 ---
 
-# Open Questions
+# Questões em aberto
 
-List pending decisions.
+Liste as decisões pendentes.
 
 ---
 
-# Revision History
+# Histórico de revisões
 
-| Version | Date | Author | Description |
+| Versão | Data | Autor | Descrição |
 |----------|------|--------|-------------|
-| 1.0 | | | Initial version |
+| 1.0 | | | Versão inicial |

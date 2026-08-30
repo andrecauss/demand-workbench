@@ -43,8 +43,7 @@ $Structure = @{
     "docs\01-Overview" = @(
         "OV-001-Vision.md",
         "OV-002-Business-Problem.md",
-        "OV-003-Scope.md",
-        "OV-004-Glossary.md"
+        "OV-003-Scope.md"
     )
 
     "docs\02-Domain" = @(

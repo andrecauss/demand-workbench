@@ -8,7 +8,7 @@ Enterprise Demand Planning Platform
 
 Português do Brasil (pt-BR) é o idioma padrão deste projeto. A documentação deve ser clara também para leitores não técnicos.
 
-Mantenha em inglês somente siglas, identificadores, estados oficiais e termos técnicos consolidados quando isso melhorar a precisão ou a interoperabilidade — por exemplo, `FRS`, `ADR`, `API`, `Forecast`, `Planning Unit`, `Draft`, `Under Review`, `Approved` e `Published`. Na primeira ocorrência, explique o termo em português ou vincule-o ao [glossário técnico](docs/01-Overview/OV-004-Glossary.md).
+Mantenha em inglês somente siglas, identificadores, estados oficiais e termos técnicos consolidados quando isso melhorar a precisão ou a interoperabilidade — por exemplo, `FRS`, `ADR`, `API`, `Forecast`, `Planning Unit`, `Draft`, `Under Review`, `Approved` e `Published`. Na primeira ocorrência, explique o termo em português ou vincule-o ao [DM-000 — Ubiquitous Language](docs/02-Domain/DM-000-Ubiquitous-Language.md), que é a referência única de significado dos termos.
 
 ---
 
@@ -47,7 +47,6 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [OV-001-Vision](docs/01-Overview/OV-001-Vision.md)
 - [OV-002-Business-Problem](docs/01-Overview/OV-002-Business-Problem.md)
 - [OV-003-Scope](docs/01-Overview/OV-003-Scope.md)
-- [OV-004-Glossary](docs/01-Overview/OV-004-Glossary.md)
 
 ## 02 - Domínio
 
@@ -147,5 +146,3 @@ Os requisitos funcionais originais estão preservados em [docs/references](docs/
 - [User-Flow-Template](docs/templates/User-Flow-Template.md)
 
 <!-- DOCS:END -->
-
-
